@@ -7,24 +7,14 @@
     tools:context="exercice.esd.com.myapplication.MainActivity">
 
 <LinearLayout
-    android:padding="20dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
-
-    <EditText
-        android:background="@color/colorPrimary"
-        android:textColor="#FFFFFF"
-        android:id="@+id/message"
-        android:layout_marginRight="20dp"
-        android:layout_width="200dp"
-        android:layout_height="40dp" />
-
-    <Button
-        android:id="@+id/send"
-        android:text="ENVOYER"
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:text="COUCOU"
+        android:textSize="20sp"/>
 
+</LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
